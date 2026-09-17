@@ -1,0 +1,23 @@
+using System; 
+ 
+class Atividade2 
+{ 
+    static void Main() 
+    { 
+        Console.WriteLine("Registro de Temperaturas do Forno"); 
+ 
+        double[] temperaturas = new double[3]; 
+ 
+        Console.Write(" 1° temperatura: "); 
+        temperaturas[0] = double.Parse(Console.ReadLine()); 
+ 
+        Console.Write(" 2° temperatura: "); 
+        temperaturas[1] = double.Parse(Console.ReadLine()); 
+ 
+        Console.Write(" 3° temperatura: "); 
+        temperaturas[2] = double.Parse(Console.ReadLine()); 
+ 
+        Console.WriteLine("Primeira temperatura: " + temperaturas[0]); 
+        Console.WriteLine("Última temperatura: " + temperaturas[2]); 
+    } 
+}
