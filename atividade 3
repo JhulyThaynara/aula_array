@@ -1,0 +1,18 @@
+using System; 
+ 
+class Atividade3 
+{ 
+    static void Main() 
+    { 
+        Console.WriteLine("Consulta de Preços de Peças"); 
+ 
+        double[] precos = { 150.00, 85.50, 420.00, 90.00 }; 
+ 
+        Console.WriteLine("1°: R$ " + precos[1]); 
+        Console.WriteLine("2° 3: R$ " + precos[3]); 
+ 
+        double soma = precos[0] + precos[2]; 
+ 
+        Console.WriteLine("Soma: " + soma.ToString("C")); 
+    } 
+}
