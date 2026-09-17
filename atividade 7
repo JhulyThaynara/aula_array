@@ -1,0 +1,20 @@
+using System; 
+ 
+class Atividade7 
+{ 
+    static void Main() 
+    { 
+        Console.WriteLine("Troca de posições");
+        
+        string [] pecas = {"Jujuba", "Amora","Morango"};
+        
+        string auxiliar = pecas[0]; 
+        pecas[0] = pecas[2]; 
+        pecas[2] = auxiliar; 
+ 
+        Console.WriteLine("1°: " + pecas[0]); 
+        Console.WriteLine("2°: " + pecas[1]); 
+        Console.WriteLine("3°: " + pecas[2]); 
+    } 
+}
+        
