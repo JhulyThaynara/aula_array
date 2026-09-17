@@ -1,0 +1,20 @@
+using System; 
+ 
+class Atividade8 
+{ 
+    static void Main() 
+    { 
+        Console.WriteLine("Média do Aluno"); 
+ 
+        double[] notas = { 8.5, 7.0, 6.5, 9.0 }; 
+ 
+        double media = (notas[0] + notas[1] + notas[2] + notas[3]) / 4; 
+ 
+        Console.WriteLine("1° Nota: " + notas[0]); 
+        Console.WriteLine("2° Nota: " + notas[1]); 
+        Console.WriteLine("3° Nota: " + notas[2]); 
+        Console.WriteLine("4° Nota: " + notas[3]); 
+ 
+        Console.WriteLine("Média: " + media); 
+    } 
+}
