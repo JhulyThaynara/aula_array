@@ -1,0 +1,19 @@
+using System;
+
+class Atividade1
+{
+    static void Main()
+    {
+        Console.WriteLine("Linha de Produção");
+
+        string[] ferramentas = new string[3];
+
+        ferramentas[0] = "Chave";
+        ferramentas[1] = "Torquímetro";
+        ferramentas[2] = "Alicate";
+
+        Console.WriteLine("Gaveta 0: " + ferramentas[0]);
+        Console.WriteLine("Gaveta 1: " + ferramentas[1]);
+        Console.WriteLine("Gaveta 2: " + ferramentas[2]);
+    }
+}
